@@ -14,26 +14,29 @@
 
 \begin{frame}{Opening}
 \begin{enumerate}
-\small
-\item \textbf{\alert{Symbolic Content}}: Depict idea through visual design
 \item Confronting the Puzzle - Sum up a signal over time
 \begin{itemize}
 \item \textit{\alert{Classification}}: A problem involving an \textbf{integral}
-\item \textit{\alert{Abstraction}}: Trade the \textbf{objects} for \textbf{symbols} and act on them
-\item \textit{\alert{Hypothetical}}: Changing \textbf{properties} of symbols
+\item \textit{\alert{Abstraction}}: Trade the \textbf{objects} for \textbf{symbols} and act
+\item \textit{\alert{Hypothetical}}: Changing \textbf{properties} of \textbf{symbols}
 \end{itemize}
 \item Create an algorithm - one path
 \begin{itemize}
 \item \textit{Riemann sums} and \textit{pseudo-code}
-\item \textbf{Testing}
+\item \textbf{Build} and \textbf{Test}
 \end{itemize}
 \item Design a circuit - another path
 \begin{itemize}
-\item Translate symbols
+\item \textit{Problem objects to circuit elements}
 \item \textbf{Build} and \textbf{Test}
 \end{itemize}
 \item \textbf{\alert{Study the mechanics result}}
 \end{enumerate}
+\end{frame}
+
+\begin{frame}{Opening}
+\textbf{\alert{Symbolic Content}}: Depict idea through visual design \\
+\textbf{\textit{Question Content}}: Interactivity and machine learning
 \end{frame}
 
 \section{Confronting the Puzzle}
@@ -49,6 +52,24 @@ Define \textbf{average velocity} and \textbf{displacement}: \\
 \vec{\bar{v}} &= \frac{\Delta \vec{x}}{\Delta t}
 \end{align}
 \end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Confronting the Puzzle}
+\small
+\textbf{\textit{Question Content}}: What is the average velocity $\to$ \textit{\alert{Classification}}
+\begin{itemize}
+\item A Conceptually wrong
+\item B Right
+\item C Numerically wrong
+\item D Unrelated
+\end{itemize}
+\textbf{\textit{Question Content}}: Apply the average velocity $\to$ \textit{\alert{Hypothetical}}
+\begin{itemize}
+\item A Conceptually wrong
+\item B Right
+\item C Numerically wrong
+\item D Unrelated
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Confronting the Puzzle}
@@ -76,6 +97,24 @@ Breaking an integral into a: \textit{a Riemann sum} $\to$ \textit{\alert{Abstrac
 \begin{equation}
 x_{\rm 0} = \sum_{n=0}^{N-1} f_n (\Delta x)_n
 \end{equation}
+\end{frame}
+
+\begin{frame}{Develop an Algorithm}
+\small
+\textbf{\textit{Question Content}}: Adding to approximate integral $\to$ \textit{\alert{Classification}}
+\begin{itemize}
+\item A Conceptually wrong
+\item B Right
+\item C Numerically wrong
+\item D Unrelated
+\end{itemize}
+\textbf{\textit{Question Content}}: Choose correct algorithm $\to$ \textit{\alert{Hypothetical}}
+\begin{itemize}
+\item A Conceptually wrong
+\item B Right
+\item C Numerically wrong
+\item D Unrelated
+\end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]{Develop an Algorithm}
@@ -108,7 +147,25 @@ Study outputs given different data $\to$ \textit{\alert{hypothetical}}
 \end{frame}
 
 \begin{frame}{Design a Circuit}
-Show in steps that this circuit obeys $\to$ \textit{\alert{Abstraction}} \\
+\small
+\textbf{\textit{Question Content}}: Classifying resisters, capacitors $\to$ \textit{\alert{Classification}}
+\begin{itemize}
+\item A Conceptually wrong
+\item B Right
+\item C Numerically wrong
+\item D Unrelated
+\end{itemize}
+\textbf{\textit{Question Content}}: Simple circuit mathematics $\to$ \textit{\alert{Hypothetical}}
+\begin{itemize}
+\item A Conceptually wrong
+\item B Right
+\item C Numerically wrong
+\item D Unrelated
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Design a Circuit}
+Show in steps that this circuit obeys $\to$ \textit{\alert{Abstraction}} \\ \vspace{0.25cm}
 \begin{tcolorbox}
 \begin{equation}
 v_{\rm out} (t) = \frac{1}{RC} \int_{t_1}^{t_2} v_{\rm in}(t) dt
@@ -131,12 +188,11 @@ Using both or either paths (\textbf{Scalar}), solve the problem of $x_{\rm 0}$ u
 \item Solution for the case of constant velocity
 \item Solution for the case of constant acceleration
 \end{itemize}
-\alert{\textbf{Symbolic content}}: Show these solutions graphically \\
-$\to$ \textit{\alert{Abstraction}} (\alert{\textbf{Symbolic content}}): Deduce equations for displacement, given each situation
+\alert{\textbf{Symbolic content}}: Show these solutions graphically
 \end{frame}
 
 \begin{frame}{Study the Mechanics Result}
-Arrive at the answers: \\
+$\to$ \textit{\alert{Abstraction}} (\alert{\textbf{Symbolic content}}): Deduce equations for displacement, given each situation \\
 \begin{align}
 x_{\rm 0} &= x_{\rm i} \\
 x_{\rm 0} &= vt + x_{\rm i} \\
